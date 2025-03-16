@@ -1,7 +1,7 @@
 import qrcode #Type 'pip install qrcode ' into the terminal (This will download the qrcode library)
 import qrcode.constants
 
-data = "https://sites.google.com/view/idignajr" #Enter the domain of the site you want here
+data = "https://example.com" #Enter the domain of the site you want here
 
 qr = qrcode.QRCode(
     version=1,
